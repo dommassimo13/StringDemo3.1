@@ -32,7 +32,7 @@ public class StringDemo extends Application {
         if (option==1) {
             System.out.println("Option 1 is selected");
         } else {
-            System.out.printf("option %5s%d%-5c%1.4e is selected"," ",2,'X',12345.67890);
+            System.out.printf("option %5s%d%-5c%1.4e%f% is selected"," ",2,'X',12345.67890,123,4f);
             //displays option entered
         }
     }
